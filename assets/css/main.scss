@@ -1,6 +1,6 @@
---- 
-# do not remove 
---- 
+---
+# do not remove
+---
 
 @import 'normalize';
 @import 'code_style';
@@ -120,7 +120,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
-    
+
     @include breakpoint(medium) {
         zoom: 1;
     }
@@ -364,7 +364,7 @@ img {
         display: none;
 
         &+div {
-            background: url('../img/gengar.png') no-repeat center;
+            background: url('../img/m.png') no-repeat center;
             width: 40px;
             height: 40px;
             position: relative;
@@ -381,7 +381,7 @@ img {
             }
 
             &:after {
-                background: url('../img/charmander.png') no-repeat center;
+                background: url('../img/s.png') no-repeat center;
                 content: '';
                 width: 40px;
                 height: 40px;
@@ -730,7 +730,7 @@ img {
         height: 8px;
         background: white;
         border-radius: 50%;
-      
+
         @for $i from 1 through $total {
           $random-x: random(1000000) * 0.0001vw;
           $random-offset: random_range(-100000, 100000) * 0.0001vw;
@@ -741,18 +741,18 @@ img {
           $random-scale: (random(5000) + 5000) * 0.0001;
           $fall-duration: random_range(30, 40) * 1s;
           $fall-delay: random(30) * -1s;
-      
+
           &:nth-child(#{$i}) {
           //   opacity: random(10000) * 0.0001;
             transform: translate($random-x, -10px) scale($random-scale);
             animation: fall-#{$i} $fall-duration $fall-delay linear infinite;
           }
-      
+
           @keyframes fall-#{$i} {
             #{percentage($random-yoyo-time)} {
               transform: translate($random-x-end, $random-yoyo-y) scale($random-scale);
             }
-            
+
             to {
               transform: translate($random-x-end-yoyo, 100vh) scale($random-scale);
             }
