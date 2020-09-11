@@ -29,7 +29,7 @@
     --post_link: #46a891;
     --post_link_hover: #87CDBD;
     --inlinecode_text: #FFAA00;
-    --blockquote: #333333;
+    --blockquote: #333;
     --footer_font: #858585;
     --footer_font_a: #000;
     --border_radius: 15px;
@@ -173,6 +173,11 @@ img {
     @include breakpoint(medium) {
         max-width: 30rem;
         margin-top: 5.5rem;
+
+        img {
+            float: left;
+        }
+    }
     }
 
     @include mobile-only {
@@ -181,11 +186,7 @@ img {
         margin-right: 1rem;
     }
 
-    img {
-        width: 70% !important;
-        float: left;
-    }
-}
+
 
 ::-webkit-scrollbar {
     width: 8px;
@@ -210,7 +211,7 @@ img {
 .fourzerofour {
     text-align: center;
     font-size: 1.3rem;
-    margin-top: 10rem;
+    margin-top: 7rem;
 }
 
 
@@ -359,18 +360,19 @@ img {
 
 .theme_changer {
     cursor: pointer;
-
     input {
         display: none;
 
         &+div {
-            background: url('../img/m.png') no-repeat center;
-            width: 40px;
-            height: 40px;
+            background: url('../img/m.png') no-repeat center center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
             position: relative;
             transition: box-shadow .5s ease 0s, transform .5s ease .1s;
 
             &:before {
+
                 content: '';
                 width: inherit;
                 height: inherit;
@@ -381,10 +383,12 @@ img {
             }
 
             &:after {
+
                 background: url('../img/s.png') no-repeat center;
+                border-radius: 50%;
                 content: '';
-                width: 40px;
-                height: 40px;
+                width: 30px;
+                height: 30px;
                 position: absolute;
                 transform: scale(0);
                 transition: all .5s ease;
@@ -402,7 +406,7 @@ img {
     }
 }
 
-.poke {
+.button {
     margin-left: auto;
     margin-right: auto;
 }
@@ -551,10 +555,6 @@ img {
             color: var(--nav_font_hover);
         }
     }
-}
-
-.post_last {
-    float: right;
 }
 
 .post_content {
