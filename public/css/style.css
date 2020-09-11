@@ -98,7 +98,7 @@ code {
 	flex: 0 0 220px;
 	padding: 15px;
 	z-index: 1;
-	background-color: #6AD6FF;
+	background-color: #222;
 	color: #fff;
 }
 
@@ -119,7 +119,7 @@ code {
 
 .lead {
 	font-size: 120%;
-	color: #fff;
+	color: #aaa;
 }
 
 .sidebar-header {
@@ -142,10 +142,10 @@ a.nav-item {
 	font-size: 120%;
 	font-family: "Noto Sans";
 	text-transform: capitalize;
-	color: #fff;
+	color: #aaa;
 }
 
-a.nav-item:hover { color: #386f94; }
+a.nav-item:hover { color: #777; }
 
 .badge { font-size: 70%; }
 .badge::before { content: "("; }
@@ -157,7 +157,7 @@ a.nav-item:hover { color: #386f94; }
 .post-link {
 	margin-left: 10px;
 	font-size: 110%;
-	color: #1C74C4;
+	color: #333;
 }
 
 #contact-list li .fa,
@@ -214,7 +214,7 @@ article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decora
 article img { max-width: 100%; }
 
 blockquote {
-	color: #51869c;
+	color: #828282;
   	border-left: 4px solid #ccc;
   	padding-left: 10px;
   	margin: 0;
@@ -233,7 +233,7 @@ article h4,
 article h5,
 article h6 {
 	font-family: "Roboto", "Nanum Gothic";
-	color: #fff;
+	color: #333;
   	margin-bottom: 0;
 }
 
@@ -295,7 +295,7 @@ footer {
 }
 
 .sidebar-footer a {
-	color: #3194d6;
+	color: #ccc;
 }
 
 
