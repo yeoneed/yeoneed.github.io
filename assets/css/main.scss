@@ -1,6 +1,6 @@
----
-# do not remove
----
+--- 
+# do not remove 
+--- 
 
 @import 'normalize';
 @import 'code_style';
@@ -29,7 +29,7 @@
     --post_link: #46a891;
     --post_link_hover: #87CDBD;
     --inlinecode_text: #FFAA00;
-    --blockquote: #333;
+    --blockquote: #333333;
     --footer_font: #858585;
     --footer_font_a: #000;
     --border_radius: 15px;
@@ -120,7 +120,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
-
+    
     @include breakpoint(medium) {
         zoom: 1;
     }
@@ -173,11 +173,6 @@ img {
     @include breakpoint(medium) {
         max-width: 30rem;
         margin-top: 5.5rem;
-
-        img {
-            float: left;
-        }
-    }
     }
 
     @include mobile-only {
@@ -186,7 +181,11 @@ img {
         margin-right: 1rem;
     }
 
-
+    img {
+        width: 70% !important;
+        float: left;
+    }
+}
 
 ::-webkit-scrollbar {
     width: 8px;
@@ -211,7 +210,7 @@ img {
 .fourzerofour {
     text-align: center;
     font-size: 1.3rem;
-    margin-top: 7rem;
+    margin-top: 10rem;
 }
 
 
@@ -360,19 +359,18 @@ img {
 
 .theme_changer {
     cursor: pointer;
+
     input {
         display: none;
 
         &+div {
-            background: url('../img/m.png') no-repeat center center;
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
+            background: url('../img/gengar.png') no-repeat center;
+            width: 40px;
+            height: 40px;
             position: relative;
             transition: box-shadow .5s ease 0s, transform .5s ease .1s;
 
             &:before {
-
                 content: '';
                 width: inherit;
                 height: inherit;
@@ -383,12 +381,10 @@ img {
             }
 
             &:after {
-
-                background: url('../img/s.png') no-repeat center;
-                border-radius: 50%;
+                background: url('../img/charmander.png') no-repeat center;
                 content: '';
-                width: 30px;
-                height: 30px;
+                width: 40px;
+                height: 40px;
                 position: absolute;
                 transform: scale(0);
                 transition: all .5s ease;
@@ -406,7 +402,7 @@ img {
     }
 }
 
-.button {
+.poke {
     margin-left: auto;
     margin-right: auto;
 }
@@ -555,6 +551,10 @@ img {
             color: var(--nav_font_hover);
         }
     }
+}
+
+.post_last {
+    float: right;
 }
 
 .post_content {
@@ -713,6 +713,15 @@ img {
         color: var(--footer_font_a);
     }
 }
+
+/* 7. Etc */
+
+@function random_range($min, $max) {
+  $rand: random();
+  $random_range: $min + floor($rand * (($max - $min) + 1));
+  @return $random_range;
+}
+
 .snow {
     @include breakpoint(medium) {
         $total: 200;
@@ -721,7 +730,7 @@ img {
         height: 8px;
         background: white;
         border-radius: 50%;
-
+      
         @for $i from 1 through $total {
           $random-x: random(1000000) * 0.0001vw;
           $random-offset: random_range(-100000, 100000) * 0.0001vw;
@@ -732,18 +741,18 @@ img {
           $random-scale: (random(5000) + 5000) * 0.0001;
           $fall-duration: random_range(30, 40) * 1s;
           $fall-delay: random(30) * -1s;
-
+      
           &:nth-child(#{$i}) {
           //   opacity: random(10000) * 0.0001;
             transform: translate($random-x, -10px) scale($random-scale);
             animation: fall-#{$i} $fall-duration $fall-delay linear infinite;
           }
-
+      
           @keyframes fall-#{$i} {
             #{percentage($random-yoyo-time)} {
               transform: translate($random-x-end, $random-yoyo-y) scale($random-scale);
             }
-
+            
             to {
               transform: translate($random-x-end-yoyo, 100vh) scale($random-scale);
             }
