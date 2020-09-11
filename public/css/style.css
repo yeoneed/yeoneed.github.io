@@ -98,7 +98,7 @@ code {
 	flex: 0 0 220px;
 	padding: 15px;
 	z-index: 1;
-	background-color: #6AD6FF;
+	background-color: #7ccceb;
 	color: #fff;
 }
 
@@ -119,7 +119,7 @@ code {
 
 .lead {
 	font-size: 120%;
-	color: #15aeeb;
+	color: #05597a;
 }
 
 .sidebar-header {
@@ -233,7 +233,7 @@ article h4,
 article h5,
 article h6 {
 	font-family: "Roboto", "Nanum Gothic";
-	color: #15aeeb;
+	color: #10a5e0;
   	margin-bottom: 0;
 }
 
@@ -253,7 +253,7 @@ article.home h4 a:hover {
 header.post-header {
 	padding: 50px 0px 10px 0px;
 	margin-bottom: 30px;
-	border-bottom: 1px solid #75c9e0;
+	border-bottom: 1px solid #44a8c9;
 	text-align: center;
 }
 
