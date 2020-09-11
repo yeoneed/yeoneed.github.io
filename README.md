@@ -5,6 +5,4 @@
 jekyll 사용
 
 
-**Demo:** https://starry99.github.io/catbook/
-
 주로 공부 기록용이 될 것 같습니다
