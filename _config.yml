@@ -19,7 +19,7 @@ user:
   name: s2uyeoii
   pic: /assets/img/cat.jpg
   picAlt: "catbook"
-  job: a category-centric theme
+  job: Volez, Voguez, Voyagez
   aboutme: true # comment this out if you don't need the 'about' page.
 
 exclude:
