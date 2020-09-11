@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta charset="utf-8">
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {%- include head.html -%}
   <style>@import url(/public/css/syntax/{{ site.highlighter-theme }}.css);</style>
@@ -7,7 +8,7 @@
 
   <link href="/public/css/style.css" rel="stylesheet">
   <body>
-  	<div class="container"> 
+  	<div class="container">
 		<div class="sidebar">
 			{% include sidebar.html %}
 		</div>
