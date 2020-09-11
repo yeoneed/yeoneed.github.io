@@ -81,19 +81,14 @@ code {
 .container {
 	min-height: 100%;
 	display: flex;
-	flex-flow: row nowrap;
 	justify-content: space-between;
-}
-
-.content-wrapper {
-	flex: 1 1 auto;
-	padding: 0px 30px;
+	flex-flow: row nowrap;
 }
 
 .content {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 900px;	
+	/*margin-left: 180px;*/
+	flex: 1 1 auto;
+	padding: 0px 30px;
 }
 
 .sidebar {
@@ -103,7 +98,7 @@ code {
 	flex: 0 0 220px;
 	padding: 15px;
 	z-index: 1;
-	background-color: #74cff2;
+	background-color: #6AD6FF;
 	color: #fff;
 }
 
@@ -124,7 +119,7 @@ code {
 
 .lead {
 	font-size: 120%;
-	color: #aaa;
+	color: #15aeeb;
 }
 
 .sidebar-header {
@@ -147,10 +142,10 @@ a.nav-item {
 	font-size: 120%;
 	font-family: "Noto Sans";
 	text-transform: capitalize;
-	color: #aaa;
+	color: #fff;
 }
 
-a.nav-item:hover { color: #777; }
+a.nav-item:hover { color: #386f94; }
 
 .badge { font-size: 70%; }
 .badge::before { content: "("; }
@@ -162,7 +157,7 @@ a.nav-item:hover { color: #777; }
 .post-link {
 	margin-left: 10px;
 	font-size: 110%;
-	color: #333;
+	color: #1C74C4;
 }
 
 #contact-list li .fa,
@@ -219,11 +214,16 @@ article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decora
 article img { max-width: 100%; }
 
 blockquote {
-	color: #828282;
+	color: #51869c;
   	border-left: 4px solid #ccc;
   	padding-left: 10px;
   	margin: 0;
   	margin-bottom: 15px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 article h1,
@@ -233,7 +233,7 @@ article h4,
 article h5,
 article h6 {
 	font-family: "Roboto", "Nanum Gothic";
-	color: #333;
+	color: #15aeeb;
   	margin-bottom: 0;
 }
 
@@ -253,7 +253,7 @@ article.home h4 a:hover {
 header.post-header {
 	padding: 50px 0px 10px 0px;
 	margin-bottom: 30px;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #75c9e0;
 	text-align: center;
 }
 
@@ -295,7 +295,7 @@ footer {
 }
 
 .sidebar-footer a {
-	color: #ccc;
+	color: #3194d6;
 }
 
 
@@ -305,7 +305,7 @@ footer {
 		line-height: 1.5;
 	}
 
-	.content-wrapper {
+	.content {
 		padding: 0px;
 	}
 	.container {
@@ -335,5 +335,4 @@ footer {
 		flex: 0 0 0px;
 		visibility: hidden;
 		display: none;
-	}
-}
+	
