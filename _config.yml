@@ -1,5 +1,5 @@
 
-title: s2uyeoii의 대학 일기 #Your awesome title
+title: S2uyeoii의 대학 일기 #Your awesome title
 email: pink99120@gmail.com
 description: > # this means to ignore newlines until "baseurl"
   Volez, Voguez, Voyagez
@@ -16,7 +16,7 @@ google_analytics: #UA—XXXXXXXX-X
 disqus_shortname: #disqus shortname
 
 user:
-  name: s2uyeoii
+  name: S2uyeoii
   pic: /assets/img/cat.jpg
   picAlt: "catbook"
   job: Volez, Voguez, Voyagez
