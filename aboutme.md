@@ -1,16 +1,13 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Hello world!
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+안녕하세요 소프트웨어학과 정보 컴퓨터 교직 전공 중인 김수연입니다:)
+Hi, my name is Suyeon KIm. I major software and computer education:)
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
 
 ### My story
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+관심사가 좁고 깊은 편입니다. 음악을 너무너무 좋아해요 ๑◕‿◕๑ 
