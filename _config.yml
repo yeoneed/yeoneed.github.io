@@ -15,10 +15,8 @@ author: S2uyeoii
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://s2uyeoii.github.io"
+  Tags: "/tags"
+  DM: "https://instagram.com/s2uyeoii"
 
 # --- Logo --- #
 
