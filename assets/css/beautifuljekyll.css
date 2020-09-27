@@ -135,7 +135,7 @@ img {
 
 .navbar-custom {
   background-color: {{ site.navbar-col | default: "#EAEAEA" }};
-  border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }}
+  border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
   font-family: 'Nanum Myeongjo', 'Noto Sans KR', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, serif;
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
