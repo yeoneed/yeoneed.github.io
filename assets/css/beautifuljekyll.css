@@ -2,7 +2,7 @@
 layout: null
 ---
 
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+@import url(//cdn.jsdelivr.net/font-nanum/1.0/nanummyeongjo/nanummyeongjo.css);
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url("pygment_highlights.css");
 
