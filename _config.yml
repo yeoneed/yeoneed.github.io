@@ -97,7 +97,7 @@ feed_show_tags: true
 navbar-img: "/assets/img/unnamed.jpg"
 navbar-text-col: "#404040"
 navbar-border-col: "#b5ffee"
-page-col: "#ffebee"
+page-col: "#ffffff"
 text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#0085A1"
