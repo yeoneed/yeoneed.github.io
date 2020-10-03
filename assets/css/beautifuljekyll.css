@@ -217,6 +217,11 @@ img {
 .navbar-toggler {
   font-size: 1rem;
   margin: 0.5rem 0;
+  padding: .25rem .75rem;
+    line-height: 1;
+    background-color: #fd92a382;
+    border: 1px solid transparent;
+    border-radius: .25rem;
 }
 .navbar-custom .navbar-toggler:focus,
 .navbar-custom .navbar-toggler:hover {
