@@ -214,6 +214,11 @@ img {
   color: {{ site.navbar-text-col | default: "#404040" }};
 }
 
+.navbar-light .navbar-toggler {
+    color: rgb(0 0 0 / 0%);
+    border-color: rgb(187 73 68);
+}
+
 .navbar-toggler {
   font-size: 1rem;
   margin: 0.5rem 0;
