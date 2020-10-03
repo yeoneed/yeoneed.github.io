@@ -15,9 +15,7 @@ Hi, my name is Suyeon KIm. I major software and computer education :)
 
 ------
 
-이 블로그는 2020년 여름, 진로 고민 도중 공부한 생활코딩 WEB1:
-
-[https://opentutorials.org/course/3084]: https://opentutorials.org/course/3084
+이 블로그는 2020년 여름, 진로 고민 도중 공부한 생활코딩 WEB1: [https://opentutorials.org/course/3084](https://opentutorials.org/course/3084)
 
  강좌 실습과 2020-2학기 웹프로그래밍 수업 예습을 위해 개설하였습니다.  
 
