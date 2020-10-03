@@ -8,9 +8,7 @@ subtitle: Who am I
 
 Hi, my name is Suyeon KIm. I major software and computer education :) 
 
-<img src="C:\Users\Suyeon Kim\s2uyeoii.github.io\assets\img\KakaoTalk_20200913_024935483.jpg" style="zoom:25%;" />
-
-
+<img src="https://raw.githubusercontent.com/s2uyeoii/s2uyeoii.github.io/master/assets/img/KakaoTalk_20200913_024935483.jpg" style="zoom:25%;" />
 
 ### About this blog
 
