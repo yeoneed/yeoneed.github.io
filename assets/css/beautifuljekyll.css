@@ -563,13 +563,13 @@ footer .footer-custom-content {
 }
 
 .blog-tags span {
-  color: #4e874a;
+  color: #2d9c25;
     /* {{ site.text-col | default: "#4e874a" }}; */
   opacity: 0.8;
 }
 
 .blog-tags a {
-  color: #4e874a;
+  color: #2d9c25;
     /*{{ site.text-col | default: "#4e874a" }};*/
   text-decoration: none;
   padding: 0 0.3125rem;
@@ -580,9 +580,9 @@ footer .footer-custom-content {
 
 .blog-tags a:hover {
   opacity: 1;
-  color: #4e874a;
+  color: #79c936;
  /* color: {{ site.text-col | default: "#4e874a" }};*/
-  border-color: #4e874a;
+  border-color: #2d9c25;
     /*{{ site.text-col | default: "#4e874a" }};*/
 }
 
