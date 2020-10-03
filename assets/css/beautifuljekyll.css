@@ -580,8 +580,10 @@ footer .footer-custom-content {
 
 .blog-tags a:hover {
   opacity: 1;
-  color: {{ site.text-col | default: "#4e874a" }};
-  border-color: {{ site.text-col | default: "#4e874a" }};
+  color: #4e874a;
+ /* color: {{ site.text-col | default: "#4e874a" }};*/
+  border-color: #4e874a;
+    /*{{ site.text-col | default: "#4e874a" }};*/
 }
 
 .post-preview .blog-tags {
