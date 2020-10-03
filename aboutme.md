@@ -8,7 +8,7 @@ subtitle: Who am I
 
 Hi, my name is Suyeon KIm. I major software and computer education :) 
 
-<img src="C:\Users\Suyeon Kim\Desktop\지원서\KakaoTalk_20200913_024935483.jpg" style="zoom:25%;" />
+<img src="C:\Users\Suyeon Kim\s2uyeoii.github.io\assets\img\KakaoTalk_20200913_024935483.jpg" style="zoom:25%;" />
 
 
 
@@ -16,7 +16,7 @@ Hi, my name is Suyeon KIm. I major software and computer education :)
 
 ------
 
-이 블로그는 2020년 여름, 진로 고민 도중 공부한 생활코딩 WEB1: https://opentutorials.org/course/3084 강좌 실습과 2020-2학기 웹프로그래밍 수업 예습을 위해 개설하였습니다.  
+이 블로그는 2020년 여름, 진로 고민 도중 공부한 생활코딩 WEB1: [](https://opentutorials.org/course/3084) 강좌 실습과 2020-2학기 웹프로그래밍 수업 예습을 위해 개설하였습니다.  
 
 ### My interests
 
