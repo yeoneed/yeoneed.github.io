@@ -563,12 +563,14 @@ footer .footer-custom-content {
 }
 
 .blog-tags span {
-  color: {{ site.text-col | default: "#4e874a" }};
+  color: #4e874a;
+    /* {{ site.text-col | default: "#4e874a" }}; */
   opacity: 0.8;
 }
 
 .blog-tags a {
-  color: {{ site.text-col | default: "#4e874a" }};
+  color: #4e874a;
+    /*{{ site.text-col | default: "#4e874a" }};*/
   text-decoration: none;
   padding: 0 0.3125rem;
   opacity: 0.8;
