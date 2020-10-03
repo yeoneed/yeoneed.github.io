@@ -95,7 +95,7 @@ feed_show_tags: true
 
 # navbar-col: "#b5ffee"
 navbar-img: "/assets/img/geewa.jpg"
-navbar-text-col: "#ffa8ba"
+navbar-text-col: "#f1afad"
 navbar-border-col: "#ffe0e0"
 page-col: "#ffffff"
 text-col: "#404040"
