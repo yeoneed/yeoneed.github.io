@@ -475,7 +475,7 @@ footer .footer-custom-content {
 .post-preview a {
   text-decoration: none;
     /*font-family: 'NanumSquare', 'Noto Sans KR', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-       font-family: 'Nanum Gothic','Helvetica Neue', Helvetica, Arial,'Roboto', sans-serif;
+       font-family: 'Nanum Gothic','Roboto', sans-serif;
   color: {{ site.text-col | default: "#404040" }};
 }
 
