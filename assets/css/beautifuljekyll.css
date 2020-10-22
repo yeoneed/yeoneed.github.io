@@ -9,6 +9,12 @@ layout: null
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 @import url("pygment_highlights.css");
+@font-face {
+	font-family: 'RIDIBatang';
+	font-style: normal;
+	font-weight: normal;
+	src: url('https://www.ridicorp.com/branding/fonts/ridibatang/RIDIBatang.otf');
+}
 
 /* --- General --- */
 
@@ -17,7 +23,7 @@ html {
 }
 
 body {
-  font-family: 'Nanum Gothic','Roboto', sans-serif;
+  font-family: 'RIDIBatang','Nanum Gothic','Roboto', sans-serif;
   /*font-family: 'Lora', 'Times New Roman', serif;*/
   font-size: 1rem;
   color: {{ site.text-col | default: "#404040" }};
@@ -33,7 +39,7 @@ p {
   margin: 1.875rem 0;
 }
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Nanum Gothic','Roboto', sans-serif;
+    font-family: 'RIDIBatang', 'Nanum Gothic','Roboto', sans-serif;
   font-weight: 800; 
   line-height: 1.1;
 }
@@ -143,7 +149,7 @@ img {
   background-color: {{ site.navbar-col | default: "#EAEAEA" }};
   border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
   /*font-family: 'NanumSquare', 'Noto Sans KR', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-   font-family: 'Nanum Gothic','Helvetica Neue', Helvetica, Arial,'Roboto', sans-serif;
+   font-family: 'RIDIBatang', 'Nanum Gothic','Helvetica Neue', Helvetica, Arial,'Roboto', sans-serif;
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
     background-attachment: fixed;
@@ -423,7 +429,7 @@ footer .list-inline {
 }
 footer .copyright {
   /*font-family: 'NanumSquare', 'Noto Sans KR', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-    font-family: 'Nanum Gothic','Helvetica Neue', Helvetica, Arial,'Roboto', sans-serif;
+    font-family: 'RIDIBatang', 'Nanum Gothic','Helvetica Neue', Helvetica, Arial,'Roboto', sans-serif;
   text-align: center;
   margin-bottom: 0;
   margin-top: 0;
@@ -436,7 +442,7 @@ footer .footer-custom-content {
   text-align: center;
   margin-bottom: 0.9375rem;
    /*font-family: 'NanumSquare', 'Noto Sans KR', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-      font-family: 'Nanum Gothic','Helvetica Neue', Helvetica, Arial,'Roboto', sans-serif;
+      font-family: 'RIDIBatang', 'Nanum Gothic','Helvetica Neue', Helvetica, Arial,'Roboto', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -475,7 +481,7 @@ footer .footer-custom-content {
 .post-preview a {
   text-decoration: none;
     /*font-family: 'NanumSquare', 'Noto Sans KR', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-       font-family: 'Nanum Gothic','Roboto', sans-serif;
+       font-family: 'RIDIBatang', 'Nanum Gothic','Roboto', sans-serif;
   color: {{ site.text-col | default: "#404040" }};
 }
 
@@ -578,7 +584,7 @@ footer .footer-custom-content {
 
 .blog-tags {
    /*font-family: 'NanumSquare', 'Noto Sans KR', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-   font-family: 'Nanum Gothic','Helvetica Neue', Helvetica, Arial,'Roboto', sans-serif;
+   font-family: 'RIDIBatang', 'Nanum Gothic','Helvetica Neue', Helvetica, Arial,'Roboto', sans-serif;
   font-size: 0.9375rem;
   margin-bottom: 1.875rem;
 }
@@ -626,7 +632,7 @@ footer .footer-custom-content {
 
 #full-tags-list {
   /*font-family: 'NanumSquare', 'Noto Sans KR', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-      font-family: 'Nanum Gothic','Helvetica Neue', Helvetica, Arial,'Roboto', sans-serif;
+      font-family: 'RIDIBatang', 'Nanum Gothic','Helvetica Neue', Helvetica, Arial,'Roboto', sans-serif;
 }
 
 #full-tags-list .tag-entry {
@@ -703,7 +709,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   line-height: 1.1;
   display: block;
   /*font-family: 'NanumSquare', 'Noto Sans KR', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-     font-family: 'Nanum Gothic','Helvetica Neue', Helvetica, Arial,'Roboto', sans-serif;
+     font-family: 'RIDIBatang', 'Nanum Gothic','Helvetica Neue', Helvetica, Arial,'Roboto', sans-serif;
   font-weight: 300;
   margin: 0.625rem 0 0;
   color: #373737db;
@@ -730,7 +736,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   font-size: 0.6875rem;
   color: #EEE;
    /*font-family: 'NanumSquare', 'Noto Sans KR', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-   font-family: 'Nanum Gothic','Helvetica Neue', Helvetica, Arial,'Roboto', sans-serif;
+   font-family: 'RIDIBatang', 'Nanum Gothic','Helvetica Neue', Helvetica, Arial,'Roboto', sans-serif;
   right: 0;
   bottom: 0;
   display: none;
@@ -823,7 +829,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 
 .pagination .page-item .page-link {
     /*font-family: 'NanumSquare', 'Noto Sans KR', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-     font-family: 'Nanum Gothic','Helvetica Neue', Helvetica, Arial,'Roboto', sans-serif;
+     font-family: 'RIDIBatang', 'Nanum Gothic','Helvetica Neue', Helvetica, Arial,'Roboto', sans-serif;
   text-transform: uppercase;
   font-size: 0.875rem;
   font-weight: 800;
