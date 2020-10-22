@@ -25,7 +25,7 @@ html {
 body {
   font-family: 'RIDIBatang','Nanum Gothic','Roboto', sans-serif;
   /*font-family: 'Lora', 'Times New Roman', serif;*/
-  font-size: 16px;
+  font-size: 1em;
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
