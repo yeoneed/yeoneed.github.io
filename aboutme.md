@@ -4,7 +4,7 @@ title: About me
 subtitle: Who am I
 ---
 
-안녕하세요, 대학에서 `소프트웨어`(+ 정보 컴퓨터 교직 이수)를 전공 중인 김수연입니다. 
+안녕하세요, 대학에서 `소프트웨어`(+ 정보 컴퓨터 교직 이수)를 전공 중인 대학생입니다. 
 
 Hi, my name is Suyeon Kim. I major in software engineering and computer education :) 
 
