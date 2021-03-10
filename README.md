@@ -1,5 +1,6 @@
-이런저런 얘기 올리는 블로그
-- 개발 얘기가 많을꺼 같긴해요ㅎㅎ
+<h2> TIL 위주의 블로그 </h2>
+
+그날의 공부 기록을 올립니다. 
 
 Demo: https://github.com/daattali/beautiful-jekyll 
-(넘나 유명)
+
