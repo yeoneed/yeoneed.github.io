@@ -15,10 +15,10 @@ author: S2uyeoii
 
 navbar-links:
   About Me: "aboutme"
-  Tags: "/tags"
-  Github: "https://github.com/s2uyeoii"
   Category:
     - TIL: "/category/TIL"
+  Tags: "/tags"
+  Github: "https://github.com/s2uyeoii"
 
 # --- Logo --- #
 
