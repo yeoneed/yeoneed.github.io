@@ -17,6 +17,8 @@ navbar-links:
   About Me: "aboutme"
   Tags: "/tags"
   Github: "https://github.com/s2uyeoii"
+  Category:
+    - TIL: "/category/TIL"
 
 # --- Logo --- #
 
