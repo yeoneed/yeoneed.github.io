@@ -1,6 +1,6 @@
 ---
 layout: category
-title: test
+title: TIL
 permalink: category/TIL
 ---
 
