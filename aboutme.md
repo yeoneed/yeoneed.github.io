@@ -4,7 +4,7 @@ title: About me
 subtitle: Who am I
 ---
 
-안녕하세요, 대학에서 `소프트웨어`전공에 `정보 컴퓨터` 교직 이수중인 학생입니다. 
+안녕하세요, 저는 `소프트웨어`전공에 `정보 컴퓨터` 교직 이수중인 학생입니다. 
 
 
 <div style="text-align: center;">
