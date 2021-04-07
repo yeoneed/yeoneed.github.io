@@ -92,7 +92,7 @@ layout: page
 {% if site.feed_show_category != false and post.category.size > 0 %}
     <div class="blog-category">
       <span>Category:</span>
-      {% for tag in post.category %}
+      {% for category in post.category %}
       <a href="{{ '/category' | absolute_url }}#{{- category -}}">{{- category -}}</a>
       {% endfor %}
     </div>
