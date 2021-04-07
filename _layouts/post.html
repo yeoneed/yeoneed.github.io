@@ -51,15 +51,6 @@ layout: base
           {% endfor %}
         </div>
       {% endif %}
-
-      {% if page.category %}
-        <div class="blog-category">
-          <span>Category:</span>
-          {% for category in page.category %}
-            <a href="{{ '/category' | relative_url }}#{{- category -}}">{{- category -}}</a>
-          {% endfor %}
-        </div>
-      {% endif %}
       
       {% if page.after-content %}
         <div class="after-content">
