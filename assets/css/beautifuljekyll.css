@@ -649,6 +649,50 @@ footer .footer-custom-content {
   font-size: 1rem;
 }
 
+/* --- category --- */
+
+.blog-category {
+   /*font-family: 'NanumSquare', 'Noto Sans KR', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+   font-family: 'RIDIBatang', 'Nanum Gothic','Helvetica Neue', Helvetica, Arial,'Roboto', sans-serif;
+  font-size: 0.9375rem;
+  margin-bottom: 1.875rem;
+}
+
+.blog-category span {
+  color: #287624;
+    /* {{ site.text-col | default: "#4e874a" }}; */
+  opacity: 0.8;
+}
+
+.blog-category a {
+  color: #287624;
+    /*{{ site.text-col | default: "#4e874a" }};*/
+  text-decoration: none;
+  padding: 0 0.3125rem;
+  opacity: 0.8;
+  border: 1px solid transparent;
+  border-radius: 0.1875rem;
+}
+
+.blog-category a:hover {
+  opacity: 1;
+  color: #e9387a;
+ /* color: {{ site.text-col | default: "#4e874a" }};*/
+  border-color: #287624;
+    /*{{ site.text-col | default: "#4e874a" }};*/
+}
+
+.post-preview .blog-category {
+  margin-top: 0.3125rem;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .post-preview .blog-category {
+    margin-top: 0.625rem;
+  }
+}
+
 /* --- Post and page headers --- */
 
 .intro-header {
