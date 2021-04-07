@@ -89,6 +89,19 @@ layout: page
   {% endfor %}
 </div>
 
+{% if site.feed_show_category != false and post.category.size > 0 %}
+    <div class="blog-category">
+      <span>Category:</span>
+      {% for tag in post.category %}
+      <a href="{{ '/category' | absolute_url }}#{{- category -}}">{{- category -}}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+   </article>
+  {% endfor %}
+</div>
+
 {% if paginator.total_pages > 1 %}
 <ul class="pagination main-pager">
   {% if paginator.previous_page %}
