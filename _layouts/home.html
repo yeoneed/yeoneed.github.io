@@ -89,7 +89,7 @@ layout: page
   {% endfor %}
 </div>
 
-{% if site.feed_show_category != false and post.category.size > 0 %}
+{% if site.feed_show_category != false and post.category %}
     <div class="blog-category">
       <span>Category:</span>
       {% for category in post.category %}
