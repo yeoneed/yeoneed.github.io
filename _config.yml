@@ -17,6 +17,7 @@ navbar-links:
   About Me: "aboutme"
   Category:
     - TIL: "/category/TIL"
+    - 빅데이터처리: "/category/빅데이터처리"
   Tags: "/tags"
   Github: "https://github.com/s2uyeoii"
 
