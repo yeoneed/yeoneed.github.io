@@ -18,6 +18,7 @@ navbar-links:
   Category:
     - TIL: "/category/TIL"
     - 빅데이터처리: "/category/빅데이터처리"
+    - 교직: "/category/교직"
   Tags: "/tags"
   Github: "https://github.com/s2uyeoii"
 
