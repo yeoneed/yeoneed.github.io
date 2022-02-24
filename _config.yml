@@ -6,10 +6,10 @@
 # --- Required options --- #
 
 # Name of website
-title: S2uyeoii blog
+title: yeoneeds blog
 
 # Your name to show in the footer
-author: S2uyeoii
+author: yeoneeds
 
 # --- List of links in the navigation bar --- #
 
@@ -20,7 +20,7 @@ navbar-links:
     - 빅데이터처리: "/category/빅데이터처리"
     - 교직: "/category/교직"
   Tags: "/tags"
-  Github: "https://github.com/s2uyeoii"
+  Github: "https://github.com/yeoneeds"
 
 # --- Logo --- #
 
